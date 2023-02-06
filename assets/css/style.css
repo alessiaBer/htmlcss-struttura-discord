@@ -1,0 +1,27 @@
+/* #region Common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-bg: #add8e6;
+    --nav-cont: #daa520;
+    --banner-bg: 00008b;
+    --banner-cont: #ee82ee;
+    --section-img: #1e90ff;
+    --section-text: #ffc0cb;
+    --section-bg: #d3d3d3;
+    --main-footer-cont: #228b22;
+    --footer-contacts: #f08080;
+    --footer-col: #20b2aa;
+    --footer-bg: #23272a;
+    --footer-btn: #ffb6c1;
+}
+
+/* #endregion Common
+
+/* #region Utilities */
+
+/* #endregion Utilities */
