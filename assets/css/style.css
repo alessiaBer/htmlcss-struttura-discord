@@ -14,9 +14,10 @@
     --section-text: #ffc0cb;
     --section-bg: #d3d3d3;
     --main-footer-cont: #228b22;
-    --footer-contacts: #f08080;
+    --footer-social: #f08080;
     --footer-col: #20b2aa;
     --footer-bg: #23272a;
+    --footer-bottom: #7fffd4;
     --footer-btn: #ffb6c1;
 }
 
@@ -38,8 +39,12 @@ padding: 0.5rem;
 /* #endregion Utilities */
 
 /* #region Debug */
-.debug .dash-b {
+.dash-b {
     border: 1px dashed #000;
+}
+
+.debug .dash-b-w {
+    border: 1px dashed #fff;
 }
 
 .debug nav {
@@ -85,11 +90,6 @@ padding: 0.5rem;
     margin: 2.5rem 0;
     display: flex;
 }
-
-.debug #main-footer {
-    background-color: var(--main-footer-cont);
-    height: 650px;
-}
 /* #endregion Debug */
 
 /* #region app_header */
@@ -126,5 +126,58 @@ main .main-section {
     height: 350px;
 }
 
-
+#main-footer {
+    background-color: var(--main-footer-cont);
+    height: 650px;
+}
 /* #endregion Main */
+
+/* #region Footer */
+#app_footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--footer-bg);
+}
+
+#footer-top {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin: 1rem 0 2.5rem 0;
+}
+
+#footer-top .social {
+    background-color: var(--footer-social);
+    width: 30%;
+    height: 100%;
+}
+
+#footer-top .columns {
+    display: flex;
+    width: 70%;
+}
+
+#footer-top .col {
+    background-color: var(--footer-col);
+    height: 100%;
+    width: calc(100%/4);
+}
+
+#footer-bottom {
+    height: 60px;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: var(--footer-bottom);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-btn {
+    background-color: var(--footer-btn);
+    padding: 0 0.5rem;
+}
+
+
+
+/* #endregion Footer */
