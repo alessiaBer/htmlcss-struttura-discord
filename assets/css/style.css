@@ -8,7 +8,7 @@
 :root {
     --nav-bg: #add8e6;
     --nav-cont: #daa520;
-    --banner-bg: 00008b;
+    --banner-bg: #00008b;
     --banner-cont: #ee82ee;
     --section-img: #1e90ff;
     --section-text: #ffc0cb;
@@ -23,5 +23,70 @@
 /* #endregion Common
 
 /* #region Utilities */
+.cont-width {
+    width: 60%;
+}
+
+.p-1 {
+padding: 0.5rem;
+}
 
 /* #endregion Utilities */
+
+/* #region Debug */
+.debug .dash-b {
+    border: 1px dashed #000;
+}
+
+.debug nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--nav-bg);
+}
+
+.debug .nav-container {
+    background-color: var(--nav-cont);
+    display: flex;
+    justify-content: center;
+    margin: 0.7rem;
+}
+
+.debug .banner {
+    background-color: var(--banner-bg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.debug .banner-content {
+    background-color: var(--banner-cont);
+    width: 45%;
+    height: 300px;
+    margin: 2.5rem 0;
+}
+/* #endregion Debug */
+
+/* #region app_header */
+.logo {
+    width: 15%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+
+.nav-list li {
+    padding: 0 0.5rem
+}
+
+.login {
+    width: 15%
+}
+
+
+
+/* #endregion app_header */
+
