@@ -36,63 +36,30 @@ padding: 0.5rem;
     background-color: var(--section-bg);
 }
 
-/* #endregion Utilities */
-
-/* #region Debug */
 .dash-b {
     border: 1px dashed #000;
 }
 
-.debug .dash-b-w {
+.dash-b-w {
     border: 1px dashed #fff;
 }
 
-.debug nav {
+/* #endregion Utilities */
+
+/* #region app_header */
+.nav {
     display: flex;
     justify-content: center;
     background-color: var(--nav-bg);
 }
 
-.debug .nav-container {
+.nav-container {
     background-color: var(--nav-cont);
     display: flex;
     justify-content: center;
     margin: 0.7rem;
 }
 
-.debug .banner {
-    background-color: var(--banner-bg);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.debug .banner-content {
-    background-color: var(--banner-cont);
-    width: 45%;
-    height: 300px;
-    margin: 2.5rem 0;
-}
-
-.debug .section-img {
-   background-color: var(--section-img); 
-   height: 100%;
-   width: 60%;
-}
-
-.debug .section-text {
-    background-color: var(--section-text);
-    height: 100%;
-    width: 40%;
-}
-
-.debug .section-content {
-    margin: 2.5rem 0;
-    display: flex;
-}
-/* #endregion Debug */
-
-/* #region app_header */
 .logo {
     width: 20%;
 }
@@ -113,6 +80,20 @@ nav ul {
     display: flex;
     justify-content: flex-end;
 }
+
+.banner {
+    background-color: var(--banner-bg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    background-color: var(--banner-cont);
+    width: 45%;
+    height: 300px;
+    margin: 2.5rem 0;
+}
 /* #endregion app_header */
 
 /* #region Main */
@@ -126,7 +107,24 @@ main .main-section {
     height: 400px;
 }
 
-#main-footer {
+.section-content {
+    margin: 2.5rem 0;
+    display: flex;
+}
+
+.section-img {
+    background-color: var(--section-img); 
+    height: 100%;
+    width: 60%;
+}
+ 
+.section-text {
+     background-color: var(--section-text);
+     height: 100%;
+     width: 40%;
+}
+
+#main-bottom {
     background-color: var(--main-footer-cont);
     height: 650px;
 }
@@ -177,7 +175,4 @@ main .main-section {
     background-color: var(--footer-btn);
     padding: 0 0.5rem;
 }
-
-
-
 /* #endregion Footer */
