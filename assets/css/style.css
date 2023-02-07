@@ -24,7 +24,7 @@
 /* #endregion Common
 
 /* #region Utilities */
-.cont-width {
+.container {
     width: 60%;
 }
 
@@ -47,16 +47,16 @@ padding: 0.5rem;
 /* #endregion Utilities */
 
 /* #region app_header */
-nav {
+#app_header {
     display: flex;
     justify-content: center;
     background-color: var(--nav-bg);
 }
 
-.nav-container {
+#app_header .container {
     background-color: var(--nav-cont);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0.7rem;
 }
 
@@ -64,11 +64,15 @@ nav {
     width: 20%;
 }
 
+nav {
+    width: 60%;
+}
+
 nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 100%;
 }
 
 .nav-list li {
@@ -79,6 +83,16 @@ nav ul {
     width: 20%;
     display: flex;
     justify-content: flex-end;
+}
+
+/* #endregion app_header */
+
+/* #region Main */
+#app_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
 }
 
 .banner {
@@ -94,20 +108,15 @@ nav ul {
     height: 300px;
     margin: 2.5rem 0;
 }
-/* #endregion app_header */
 
-/* #region Main */
-main section {
+main .main-section {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-main .main-section {
     height: 400px;
 }
 
-.section-content {
+section .container {
     margin: 2.5rem 0;
     display: flex;
 }
@@ -124,9 +133,12 @@ main .main-section {
      width: 40%;
 }
 
-#main-bottom {
+.main-bottom .container {
     background-color: var(--main-footer-cont);
     height: 650px;
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem auto;
 }
 /* #endregion Main */
 
