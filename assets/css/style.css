@@ -32,10 +32,6 @@
 padding: 0.5rem;
 }
 
-.bg-gr {
-    background-color: var(--section-bg);
-}
-
 .dash-b {
     border: 1px dashed #000;
 }
@@ -95,14 +91,14 @@ nav ul {
     margin: 0 auto;
 }
 
-.banner {
+.jumbotron {
     background-color: var(--banner-bg);
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.banner-content {
+.jumbotron-container {
     background-color: var(--banner-cont);
     width: 45%;
     height: 300px;
@@ -133,12 +129,16 @@ section .container {
      width: 40%;
 }
 
-.main-bottom .container {
+#reliable .container {
     background-color: var(--main-footer-cont);
     height: 650px;
     display: flex;
     justify-content: center;
     margin: 2.5rem auto;
+}
+
+#easy-meeting, #reliable {
+    background-color: var(--section-bg);
 }
 /* #endregion Main */
 
@@ -156,7 +156,7 @@ section .container {
     margin: 1rem 0 2.5rem 0;
 }
 
-#footer-top .social {
+#footer-top #talk {
     background-color: var(--footer-social);
     width: 30%;
     height: 100%;
